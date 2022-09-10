@@ -1,0 +1,25 @@
+p,
+a{
+    color: chartreuse;
+}
+span.special,li.special,em.special,li em{
+    color: crimson;
+    font-weight: bold;
+}
+li{
+    list-style-type: square;
+}
+h1+p{
+  font-size: 200%;
+}
+a:hover{
+    color: navy;
+    text-decoration: none;
+}
+#heading{
+    color: crimson;
+    background-color: aquamarine;
+}
+li[class]{
+    font-size: 300%;
+}
